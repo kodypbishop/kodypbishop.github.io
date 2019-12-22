@@ -1,0 +1,178 @@
+body{
+    background-image: url("../images/textured_paper.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1, h2, h3, h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    padding: 0;
+    border-bottom: #777777 solid 3px;
+
+}
+#name{
+    background: #4aaaa5;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 !important;
+}
+.navbar-brand{
+    padding: 0;
+}
+nav{
+    padding: 0 !important;
+    color: #777777;
+}
+
+
+a{
+    text-decoration: none;
+}
+.main{
+    background: #ffffff;
+    border: 2px solid #cccccc;
+    padding: 20px;
+    margin-top: 50px;
+}
+h2{
+    color: #4aaaa5;
+}
+hr{
+    margin: 20px 0 20px 0;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #cccccc;
+
+}
+#imageMe{
+    height: 200px;
+    width: auto;
+    float: left;
+    margin: 10px 20px 20px 0;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: auto;
+    border: none;
+    padding: 5px;
+    margin: 10px 0 0 0;
+}
+textarea{
+    resize: none;
+}
+
+h3{ 
+    position: absolute;
+    width: 100%;
+    background: #4aaaa5;
+    color: #ffffff;
+    bottom: 30px;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+.center{
+    text-align: center;
+}
+.portfolio{
+    display: inline-block;
+    position: relative;
+    padding: 66.66% 0 0 0;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+.imgPortfolio{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 0 0 10px 0 ;
+}
+label{
+    line-height: 1.5;
+}
+footer{
+    margin-top: auto;
+    background: #666666;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+}
+@media screen and (max-width: 1140px){
+
+    h3{ 
+        position: absolute;
+        width: 100%;
+        background: #4aaaa5;
+        color: #ffffff;
+        bottom: 25px;
+        font-size: 25px;
+        padding: 5px 0 5px 0;
+        margin: 0;
+}
+}
+@media screen and (max-width: 670px){
+    #imageMe{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 40%;
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 0 0 10px 0 ;
+    }
+    #portrit{
+        position: relative;
+        padding: 66.66% 20px 20px 20px;
+        width: 100%;
+    }
+    .main{
+        background: #ffffff;
+        border: 2px solid #cccccc;
+        padding: 20px;
+        margin-top: 25px;
+    }
+
+    h3{ 
+        position: absolute;
+        width: 100%;
+        background: #4aaaa5;
+        color: #ffffff;
+        bottom: 8%;
+        font-size: 20px;
+        padding: 3px 0 3px 0;
+        margin: 0;
+}
+}
+@media screen and (max-width: 470px){
+    .main{
+        background: #ffffff;
+        border: 2px solid #cccccc;
+        padding: 10px;
+        margin-top: 0px;
+    }
+
+    h3{ 
+        position: absolute;
+        width: 100%;
+        background: #4aaaa5;
+        color: #ffffff;
+        bottom: 8%;
+        font-size: 16px;
+        padding: 3px 0 3px 0;
+        margin: 0;
+}
+}
+
