@@ -87,6 +87,10 @@ h3{
     margin: 0px;
     text-align: center;
 }
+.back{
+    
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .imgPortfolio{
     position: relative;
     width: 100%;

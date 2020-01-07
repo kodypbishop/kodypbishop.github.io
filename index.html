@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <script src="./assets/scripts/jquery-3.4.1.min.js"></script>
-    <script src="./assets/scripts/moment.js"></script>
-    <script src="./assets/scripts/bootstrap.min.js"></script>
+    <script src="./assets/scripts/bootstrap.js"></script>
     <link rel="stylesheet" href="./assets/style/style.css">
     <script src="./assets/scripts/script.js"></script>
 </head>
@@ -40,17 +39,81 @@
             </div>
         </nav>
     </header>
-    <main role="main" class="" id="bio">
-        <div class="container col-xl-7 col-lg-8 col-md-9 col-sm-10 main">
-            <h2>About Me</h2>
-            <hr>
-            <div id= "portrit">
-            <img class="float-left" id="imageMe" src="assets/images/me.jpg" height="200px" width="auto"
-                alt="picture of me">
+    <main>
+        <div role="main" class="" id="bio">
+            <div class="container col-xl-7 col-lg-8 col-md-9 col-sm-10 main">
+                <h2>About Me</h2>
+                <hr>
+                <div id="portrit">
+                    <img class="float-left" id="imageMe" src="assets/images/me.jpg" height="200px" width="auto"
+                        alt="picture of me">
+                </div>
+                <p>
+                    My Name Is Kody. I live in Tucson, AZ and I am learning web development from the U of A Coding
+                    Bootcamp. I started in October 2019 so it's still pretty new to me but so far I am really enjoing it
+                    and hope to turn this into a career. I realise I still have a long way to go but, this is a my first
+                    attempt at a portfolio page and I plan on trying to keep this up to date as I go through class and
+                    beyond. I've got a few small application I've built on my own but my personal favorite is the
+                    stargazer app that was the first group project for the Bootcamp. It is simple but it does exactly
+                    what we wanted it to do so I won't forget it. Anyway thank you for taking the time to look at this
+                    page I know it isn't much yet but I am looking forward to changing that soon.
+                </p>
             </div>
-            <p>
-                My Name Is Kody. I live in Tucson, AZ and I am learning web development from the U of A Coding Bootcamp. I started in October 2019 so it's still pretty new to me but so far I am really enjoing it and hope to turn this into a career. I realise I still have a long way to go but, this is a my first attempt at a portfolio page and I plan on trying to keep this up to date as I go through class and beyond. I've got a few small application I've built on my own but my personal favorite is the stargazer app that was the first group project for the Bootcamp. It is simple but it does exactly what we wanted it to do so I won't forget it. Anyway thank you for taking the time to look at this page I know it isn't much yet but I am looking forward to changing that soon.
-            </p>
+        </div>
+        <div role="main" class="" id="bio">
+            <div class="container col-xl-7 col-lg-8 col-md-9 col-sm-12 main">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://jhamilton20.github.io/projectone/" target=”_blank”>
+                                <img src="assets/images/stars.jpg" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-block text-white back">
+                                <h5>Stargzer</h5>
+                                <p>A stragazing app that tells nightly weather conditions and includes a star map oy your current location or a searched city.  <a href="https://kodypbishop.github.io/PasswordGenerator/" target=”_blank”><i class="fab fa-github fa-2x"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://kodypbishop.github.io/PasswordGenerator/" target=”_blank”>
+                                <img src="assets/images/key.jpg" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-block text-white back">
+                                <h5>Random Password generator</h5>
+                                <p>A passord generator that allows you to choose included charcter types and length.    <a href="https://kodypbishop.github.io/PasswordGenerator/" target=”_blank”><i class="fab fa-github fa-2x"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://kodypbishop.github.io/DayPlanner/" target=”_blank”>
+                                <img src="assets/images/planner.jpg" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-block text-white back">
+                                <h5>Day Planner</h5>
+                                <p>A day planner that seperates past current and future tasks.  <a href="https://kodypbishop.github.io/PasswordGenerator/" target=”_blank”><i class="fab fa-github fa-2x"></i></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://kodypbishop.github.io/WeatherDashboard/" target=”_blank”>
+                                <img src="assets/images/weather.jpg" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-block text-white back">
+                                <h5>Weather Dashboard</h5>
+                                <p>A 5 day weather forcast page with current weather <a href="https://kodypbishop.github.io/PasswordGenerator/" target=”_blank”><i class="fab fa-github fa-2x"></i></a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
         </div>
     </main>
     <footer class="page-footer">
