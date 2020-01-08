@@ -2,7 +2,7 @@ body{
     background-image: url("../images/textured_paper.png");
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
 }
 h1, h2, h3, h4{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -76,6 +76,9 @@ h3{
     padding: 10px 0 10px 0;
     margin: 0;
 }
+/* .links{
+    height: 33%;
+} */
 .center{
     text-align: center;
 }
